@@ -1,0 +1,15 @@
+Algoritmo VerificarAnoBisiesto
+    // Declarar variable
+    Definir ano Como Entero
+	
+    // Solicitar al usuario que ingrese un año
+    Escribir "Ingrese un año: "
+    Leer ano
+	
+    // Verificar si el año es bisiesto
+    Si (ano MOD 4 = 0 Y ano MOD 100 <> 0) O (ano MOD 400 = 0) Entonces
+        Escribir ano, " es un año bisiesto."
+    Sino
+        Escribir ano, " no es un año bisiesto."
+    FinSi
+FinAlgoritmo
